@@ -17,7 +17,7 @@ cursor = connection.cursor()
 
 
 #Abrir el archivo JSON
-with open("Trabajo_final/login.json", "r") as f:
+with open("login.json", "r") as f:
     data = json.load(f)
     users = data["users"]
 
